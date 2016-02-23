@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ECD3B881C7C38E700E42A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3B871C7C38E700E42A35 /* AppDelegate.swift */; };
+		4ECD3B8A1C7C38E700E42A35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3B891C7C38E700E42A35 /* ViewController.swift */; };
+		4ECD3B8D1C7C38E700E42A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECD3B8B1C7C38E700E42A35 /* Main.storyboard */; };
+		4ECD3B8F1C7C38E700E42A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECD3B8E1C7C38E700E42A35 /* Assets.xcassets */; };
+		4ECD3B921C7C38E700E42A35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECD3B901C7C38E700E42A35 /* LaunchScreen.storyboard */; };
+		4ECD3B9D1C7C38E700E42A35 /* LetsYeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3B9C1C7C38E700E42A35 /* LetsYeatTests.swift */; };
+		4ECD3BA81C7C38E700E42A35 /* LetsYeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3BA71C7C38E700E42A35 /* LetsYeatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ECD3B991C7C38E700E42A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECD3B7C1C7C38E700E42A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECD3B831C7C38E700E42A35;
+			remoteInfo = LetsYeat;
+		};
+		4ECD3BA41C7C38E700E42A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECD3B7C1C7C38E700E42A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECD3B831C7C38E700E42A35;
+			remoteInfo = LetsYeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ECD3B841C7C38E700E42A35 /* LetsYeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsYeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECD3B871C7C38E700E42A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ECD3B891C7C38E700E42A35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4ECD3B8C1C7C38E700E42A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ECD3B8E1C7C38E700E42A35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ECD3B911C7C38E700E42A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ECD3B931C7C38E700E42A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECD3B981C7C38E700E42A35 /* LetsYeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsYeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECD3B9C1C7C38E700E42A35 /* LetsYeatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsYeatTests.swift; sourceTree = "<group>"; };
+		4ECD3B9E1C7C38E700E42A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECD3BA31C7C38E700E42A35 /* LetsYeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsYeatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECD3BA71C7C38E700E42A35 /* LetsYeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsYeatUITests.swift; sourceTree = "<group>"; };
+		4ECD3BA91C7C38E700E42A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ECD3B811C7C38E700E42A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECD3B951C7C38E700E42A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECD3BA01C7C38E700E42A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ECD3B7B1C7C38E700E42A35 = {
+			isa = PBXGroup;
+			children = (
+				4ECD3B861C7C38E700E42A35 /* LetsYeat */,
+				4ECD3B9B1C7C38E700E42A35 /* LetsYeatTests */,
+				4ECD3BA61C7C38E700E42A35 /* LetsYeatUITests */,
+				4ECD3B851C7C38E700E42A35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ECD3B851C7C38E700E42A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ECD3B841C7C38E700E42A35 /* LetsYeat.app */,
+				4ECD3B981C7C38E700E42A35 /* LetsYeatTests.xctest */,
+				4ECD3BA31C7C38E700E42A35 /* LetsYeatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ECD3B861C7C38E700E42A35 /* LetsYeat */ = {
+			isa = PBXGroup;
+			children = (
+				4ECD3B871C7C38E700E42A35 /* AppDelegate.swift */,
+				4ECD3B891C7C38E700E42A35 /* ViewController.swift */,
+				4ECD3B8B1C7C38E700E42A35 /* Main.storyboard */,
+				4ECD3B8E1C7C38E700E42A35 /* Assets.xcassets */,
+				4ECD3B901C7C38E700E42A35 /* LaunchScreen.storyboard */,
+				4ECD3B931C7C38E700E42A35 /* Info.plist */,
+			);
+			path = LetsYeat;
+			sourceTree = "<group>";
+		};
+		4ECD3B9B1C7C38E700E42A35 /* LetsYeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ECD3B9C1C7C38E700E42A35 /* LetsYeatTests.swift */,
+				4ECD3B9E1C7C38E700E42A35 /* Info.plist */,
+			);
+			path = LetsYeatTests;
+			sourceTree = "<group>";
+		};
+		4ECD3BA61C7C38E700E42A35 /* LetsYeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ECD3BA71C7C38E700E42A35 /* LetsYeatUITests.swift */,
+				4ECD3BA91C7C38E700E42A35 /* Info.plist */,
+			);
+			path = LetsYeatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ECD3B831C7C38E700E42A35 /* LetsYeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECD3BAC1C7C38E700E42A35 /* Build configuration list for PBXNativeTarget "LetsYeat" */;
+			buildPhases = (
+				4ECD3B801C7C38E700E42A35 /* Sources */,
+				4ECD3B811C7C38E700E42A35 /* Frameworks */,
+				4ECD3B821C7C38E700E42A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsYeat;
+			productName = LetsYeat;
+			productReference = 4ECD3B841C7C38E700E42A35 /* LetsYeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ECD3B971C7C38E700E42A35 /* LetsYeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECD3BAF1C7C38E700E42A35 /* Build configuration list for PBXNativeTarget "LetsYeatTests" */;
+			buildPhases = (
+				4ECD3B941C7C38E700E42A35 /* Sources */,
+				4ECD3B951C7C38E700E42A35 /* Frameworks */,
+				4ECD3B961C7C38E700E42A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ECD3B9A1C7C38E700E42A35 /* PBXTargetDependency */,
+			);
+			name = LetsYeatTests;
+			productName = LetsYeatTests;
+			productReference = 4ECD3B981C7C38E700E42A35 /* LetsYeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ECD3BA21C7C38E700E42A35 /* LetsYeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECD3BB21C7C38E700E42A35 /* Build configuration list for PBXNativeTarget "LetsYeatUITests" */;
+			buildPhases = (
+				4ECD3B9F1C7C38E700E42A35 /* Sources */,
+				4ECD3BA01C7C38E700E42A35 /* Frameworks */,
+				4ECD3BA11C7C38E700E42A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ECD3BA51C7C38E700E42A35 /* PBXTargetDependency */,
+			);
+			name = LetsYeatUITests;
+			productName = LetsYeatUITests;
+			productReference = 4ECD3BA31C7C38E700E42A35 /* LetsYeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ECD3B7C1C7C38E700E42A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Isai;
+				TargetAttributes = {
+					4ECD3B831C7C38E700E42A35 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4ECD3B971C7C38E700E42A35 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4ECD3B831C7C38E700E42A35;
+					};
+					4ECD3BA21C7C38E700E42A35 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4ECD3B831C7C38E700E42A35;
+					};
+				};
+			};
+			buildConfigurationList = 4ECD3B7F1C7C38E700E42A35 /* Build configuration list for PBXProject "LetsYeat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ECD3B7B1C7C38E700E42A35;
+			productRefGroup = 4ECD3B851C7C38E700E42A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ECD3B831C7C38E700E42A35 /* LetsYeat */,
+				4ECD3B971C7C38E700E42A35 /* LetsYeatTests */,
+				4ECD3BA21C7C38E700E42A35 /* LetsYeatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ECD3B821C7C38E700E42A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECD3B921C7C38E700E42A35 /* LaunchScreen.storyboard in Resources */,
+				4ECD3B8F1C7C38E700E42A35 /* Assets.xcassets in Resources */,
+				4ECD3B8D1C7C38E700E42A35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECD3B961C7C38E700E42A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECD3BA11C7C38E700E42A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ECD3B801C7C38E700E42A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECD3B8A1C7C38E700E42A35 /* ViewController.swift in Sources */,
+				4ECD3B881C7C38E700E42A35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECD3B941C7C38E700E42A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECD3B9D1C7C38E700E42A35 /* LetsYeatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECD3B9F1C7C38E700E42A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECD3BA81C7C38E700E42A35 /* LetsYeatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ECD3B9A1C7C38E700E42A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ECD3B831C7C38E700E42A35 /* LetsYeat */;
+			targetProxy = 4ECD3B991C7C38E700E42A35 /* PBXContainerItemProxy */;
+		};
+		4ECD3BA51C7C38E700E42A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ECD3B831C7C38E700E42A35 /* LetsYeat */;
+			targetProxy = 4ECD3BA41C7C38E700E42A35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ECD3B8B1C7C38E700E42A35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECD3B8C1C7C38E700E42A35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ECD3B901C7C38E700E42A35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECD3B911C7C38E700E42A35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ECD3BAA1C7C38E700E42A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ECD3BAB1C7C38E700E42A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ECD3BAD1C7C38E700E42A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LetsYeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LetsYeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4ECD3BAE1C7C38E700E42A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LetsYeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LetsYeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4ECD3BB01C7C38E700E42A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LetsYeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LetsYeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsYeat.app/LetsYeat";
+			};
+			name = Debug;
+		};
+		4ECD3BB11C7C38E700E42A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LetsYeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LetsYeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsYeat.app/LetsYeat";
+			};
+			name = Release;
+		};
+		4ECD3BB31C7C38E700E42A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LetsYeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LetsYeatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LetsYeat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4ECD3BB41C7C38E700E42A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LetsYeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LetsYeatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LetsYeat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ECD3B7F1C7C38E700E42A35 /* Build configuration list for PBXProject "LetsYeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECD3BAA1C7C38E700E42A35 /* Debug */,
+				4ECD3BAB1C7C38E700E42A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECD3BAC1C7C38E700E42A35 /* Build configuration list for PBXNativeTarget "LetsYeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECD3BAD1C7C38E700E42A35 /* Debug */,
+				4ECD3BAE1C7C38E700E42A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4ECD3BAF1C7C38E700E42A35 /* Build configuration list for PBXNativeTarget "LetsYeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECD3BB01C7C38E700E42A35 /* Debug */,
+				4ECD3BB11C7C38E700E42A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4ECD3BB21C7C38E700E42A35 /* Build configuration list for PBXNativeTarget "LetsYeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECD3BB31C7C38E700E42A35 /* Debug */,
+				4ECD3BB41C7C38E700E42A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ECD3B7C1C7C38E700E42A35 /* Project object */;
+}
