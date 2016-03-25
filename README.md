@@ -24,24 +24,6 @@ In its core, it helps foodies/yelpers/folks who yelp come together. Let's Yeat i
 - Look up list of good and new restaurants in the area you want to host the event at.
 - Look up your recent activity in the profile view.
 
-## How I built it
-
-The iOS app is entirely built using Swift and the Yelp API in Xcode 7.2.1. This app works only on the simulator for Iphone 5s. Cocoapods are Oauthswift and SwiftyJSON for getting results from the Yelp API. 
-
-## Challenges I ran into
-
-- Did not find a way to 'login using Yelp'.
-- Limited examples for ios-yelp api using Swift.
-- But mostly time. Between a full-time engineering job and teaching a class, I wish I had a lot more time to implement all the features I had planned out initially. The app right now is a hack put together to show the minimum set of features and in the future, will be fully-developed to be posted on to the app store.
-
-## Accomplishments that I'm proud of
-
-Got out a decent working prototype in the little time I had. Still a beginner in building polished iOS apps so learnt some new concepts along the way.
-
-## What I learned
-
-Learn what not to do(features-wise) by getting constant feedback from real users more than what I could do. 
-
 ## What's next for Lets Yeat!
 
 A whole bunch of enhancements:
