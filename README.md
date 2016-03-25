@@ -2,19 +2,6 @@
 
 ## Video - https://vimeo.com/160337625
 
-![](https://raw.githubusercontent.com/yezhisaim/Lets-Yeat/master/List-of-events.png)
-
-![](https://raw.githubusercontent.com/yezhisaim/Lets-Yeat/master/Create-event-page.png)
-
-![](https://raw.githubusercontent.com/yezhisaim/Lets-Yeat/master/search_results.png)
-
-![](https://raw.githubusercontent.com/yezhisaim/Lets-Yeat/master/Confirmation-screen.png)
-
-![](https://raw.githubusercontent.com/yezhisaim/Lets-Yeat/master/going-interested-not_going.png)
-
-![](https://raw.githubusercontent.com/yezhisaim/Lets-Yeat/master/Profile-view.png)
-
-
 ## What it does
 
 In its core, it helps foodies/yelpers/folks who yelp come together. Let's Yeat is an app to help foodies meet. User picks a restaurant(using the power of the Yelp Search API), creates an event and waits for other users to join the event. In the meantime, the user can discover other events in the area. Key features of the app:
