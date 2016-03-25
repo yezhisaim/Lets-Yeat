@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E574E4E1C857B9100CC4E2C /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E574E4D1C857B9100CC4E2C /* Events.swift */; };
+		4E574E501C857BAE00CC4E2C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E574E4F1C857BAE00CC4E2C /* User.swift */; };
+		4E574E521C857BBC00CC4E2C /* UserAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E574E511C857BBC00CC4E2C /* UserAction.swift */; };
+		4E574E541C85F76B00CC4E2C /* DiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E574E531C85F76B00CC4E2C /* DiscoverTableViewCell.swift */; };
+		4E574E581C8804E500CC4E2C /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E574E571C8804E500CC4E2C /* SearchTableViewCell.swift */; };
+		4E574E5A1C88052B00CC4E2C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E574E591C88052B00CC4E2C /* SearchViewController.swift */; };
+		4E574E5C1C88053A00CC4E2C /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E574E5B1C88053A00CC4E2C /* ReviewViewController.swift */; };
+		4E6D8AD11CA04D1F00B4715E /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E6D8AD01CA04D1F00B4715E /* me.jpg */; };
 		4ECD3B881C7C38E700E42A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3B871C7C38E700E42A35 /* AppDelegate.swift */; };
 		4ECD3B8A1C7C38E700E42A35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3B891C7C38E700E42A35 /* ViewController.swift */; };
-		4ECD3B8D1C7C38E700E42A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECD3B8B1C7C38E700E42A35 /* Main.storyboard */; };
+		4ECD3B8D1C7C38E700E42A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECD3B8B1C7C38E700E42A35 /* Main.storyboard */; settings = {ASSET_TAGS = (newEventSegue, ); }; };
 		4ECD3B8F1C7C38E700E42A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECD3B8E1C7C38E700E42A35 /* Assets.xcassets */; };
 		4ECD3B921C7C38E700E42A35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECD3B901C7C38E700E42A35 /* LaunchScreen.storyboard */; };
 		4ECD3B9D1C7C38E700E42A35 /* LetsYeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3B9C1C7C38E700E42A35 /* LetsYeatTests.swift */; };
 		4ECD3BA81C7C38E700E42A35 /* LetsYeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3BA71C7C38E700E42A35 /* LetsYeatUITests.swift */; };
+		4ECD3BB61C7D9CAC00E42A35 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3BB51C7D9CAC00E42A35 /* DiscoverViewController.swift */; };
+		4ECD3BB81C7D9CBE00E42A35 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3BB71C7D9CBE00E42A35 /* CreateViewController.swift */; };
+		4ECD3BBA1C7D9CCB00E42A35 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3BB91C7D9CCB00E42A35 /* ProfileViewController.swift */; };
+		4ECD3BBC1C7DFFCE00E42A35 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD3BBB1C7DFFCE00E42A35 /* Data.swift */; };
+		4EDCA0721C9F78580003E86A /* UserActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDCA0711C9F78580003E86A /* UserActivityTableViewCell.swift */; };
+		66752316F5BDBE8E865BE7E1 /* Pods_LetsYeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E20B4C1E8584E8451D2231 /* Pods_LetsYeat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E574E4D1C857B9100CC4E2C /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		4E574E4F1C857BAE00CC4E2C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4E574E511C857BBC00CC4E2C /* UserAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAction.swift; sourceTree = "<group>"; };
+		4E574E531C85F76B00CC4E2C /* DiscoverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewCell.swift; sourceTree = "<group>"; };
+		4E574E571C8804E500CC4E2C /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		4E574E591C88052B00CC4E2C /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4E574E5B1C88053A00CC4E2C /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		4E6D8AD01CA04D1F00B4715E /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
 		4ECD3B841C7C38E700E42A35 /* LetsYeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsYeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECD3B871C7C38E700E42A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ECD3B891C7C38E700E42A35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +69,14 @@
 		4ECD3BA31C7C38E700E42A35 /* LetsYeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsYeatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECD3BA71C7C38E700E42A35 /* LetsYeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsYeatUITests.swift; sourceTree = "<group>"; };
 		4ECD3BA91C7C38E700E42A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECD3BB51C7D9CAC00E42A35 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		4ECD3BB71C7D9CBE00E42A35 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		4ECD3BB91C7D9CCB00E42A35 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4ECD3BBB1C7DFFCE00E42A35 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4EDCA0711C9F78580003E86A /* UserActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActivityTableViewCell.swift; sourceTree = "<group>"; };
+		78E20B4C1E8584E8451D2231 /* Pods_LetsYeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsYeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB6F6AAC63F742A7061F661 /* Pods-LetsYeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsYeat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetsYeat/Pods-LetsYeat.release.xcconfig"; sourceTree = "<group>"; };
+		EE3FC698E3908FD6A95213FA /* Pods-LetsYeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsYeat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetsYeat/Pods-LetsYeat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66752316F5BDBE8E865BE7E1 /* Pods_LetsYeat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E5886DC6E1D87BE57006E8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE3FC698E3908FD6A95213FA /* Pods-LetsYeat.debug.xcconfig */,
+				7FB6F6AAC63F742A7061F661 /* Pods-LetsYeat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4ECD3B7B1C7C38E700E42A35 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				4ECD3B9B1C7C38E700E42A35 /* LetsYeatTests */,
 				4ECD3BA61C7C38E700E42A35 /* LetsYeatUITests */,
 				4ECD3B851C7C38E700E42A35 /* Products */,
+				2E5886DC6E1D87BE57006E8F /* Pods */,
+				A5EFF86308E3781D5479E141 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +139,11 @@
 		4ECD3B861C7C38E700E42A35 /* LetsYeat */ = {
 			isa = PBXGroup;
 			children = (
+				4ECD3BBE1C7DFFE400E42A35 /* Controllers */,
+				4ECD3BBD1C7DFFD800E42A35 /* Model */,
 				4ECD3B871C7C38E700E42A35 /* AppDelegate.swift */,
-				4ECD3B891C7C38E700E42A35 /* ViewController.swift */,
 				4ECD3B8B1C7C38E700E42A35 /* Main.storyboard */,
+				4E6D8AD01CA04D1F00B4715E /* me.jpg */,
 				4ECD3B8E1C7C38E700E42A35 /* Assets.xcassets */,
 				4ECD3B901C7C38E700E42A35 /* LaunchScreen.storyboard */,
 				4ECD3B931C7C38E700E42A35 /* Info.plist */,
@@ -125,6 +169,41 @@
 			path = LetsYeatUITests;
 			sourceTree = "<group>";
 		};
+		4ECD3BBD1C7DFFD800E42A35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4ECD3BBB1C7DFFCE00E42A35 /* Data.swift */,
+				4E574E4D1C857B9100CC4E2C /* Events.swift */,
+				4E574E4F1C857BAE00CC4E2C /* User.swift */,
+				4E574E511C857BBC00CC4E2C /* UserAction.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4ECD3BBE1C7DFFE400E42A35 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4ECD3B891C7C38E700E42A35 /* ViewController.swift */,
+				4ECD3BB71C7D9CBE00E42A35 /* CreateViewController.swift */,
+				4E574E571C8804E500CC4E2C /* SearchTableViewCell.swift */,
+				4E574E591C88052B00CC4E2C /* SearchViewController.swift */,
+				4E574E5B1C88053A00CC4E2C /* ReviewViewController.swift */,
+				4EDCA0711C9F78580003E86A /* UserActivityTableViewCell.swift */,
+				4E574E531C85F76B00CC4E2C /* DiscoverTableViewCell.swift */,
+				4ECD3BB51C7D9CAC00E42A35 /* DiscoverViewController.swift */,
+				4ECD3BB91C7D9CCB00E42A35 /* ProfileViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A5EFF86308E3781D5479E141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78E20B4C1E8584E8451D2231 /* Pods_LetsYeat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ECD3BAC1C7C38E700E42A35 /* Build configuration list for PBXNativeTarget "LetsYeat" */;
 			buildPhases = (
+				B7F827FC302774BBB6C7EB8D /* Check Pods Manifest.lock */,
 				4ECD3B801C7C38E700E42A35 /* Sources */,
 				4ECD3B811C7C38E700E42A35 /* Frameworks */,
 				4ECD3B821C7C38E700E42A35 /* Resources */,
+				4931FE2ADD8AC8A0D03C35D1 /* Embed Pods Frameworks */,
+				09ADDE8087B175F22D46E286 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +269,9 @@
 		4ECD3B7C1C7C38E700E42A35 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					newEventSegue,
+				);
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Isai;
@@ -232,6 +317,7 @@
 				4ECD3B921C7C38E700E42A35 /* LaunchScreen.storyboard in Resources */,
 				4ECD3B8F1C7C38E700E42A35 /* Assets.xcassets in Resources */,
 				4ECD3B8D1C7C38E700E42A35 /* Main.storyboard in Resources */,
+				4E6D8AD11CA04D1F00B4715E /* me.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +337,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09ADDE8087B175F22D46E286 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LetsYeat/Pods-LetsYeat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4931FE2ADD8AC8A0D03C35D1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LetsYeat/Pods-LetsYeat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7F827FC302774BBB6C7EB8D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4ECD3B801C7C38E700E42A35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E574E501C857BAE00CC4E2C /* User.swift in Sources */,
+				4EDCA0721C9F78580003E86A /* UserActivityTableViewCell.swift in Sources */,
+				4ECD3BB81C7D9CBE00E42A35 /* CreateViewController.swift in Sources */,
+				4E574E5C1C88053A00CC4E2C /* ReviewViewController.swift in Sources */,
+				4ECD3BBC1C7DFFCE00E42A35 /* Data.swift in Sources */,
+				4ECD3BB61C7D9CAC00E42A35 /* DiscoverViewController.swift in Sources */,
+				4ECD3BBA1C7D9CCB00E42A35 /* ProfileViewController.swift in Sources */,
+				4E574E4E1C857B9100CC4E2C /* Events.swift in Sources */,
+				4E574E5A1C88052B00CC4E2C /* SearchViewController.swift in Sources */,
+				4E574E541C85F76B00CC4E2C /* DiscoverTableViewCell.swift in Sources */,
 				4ECD3B8A1C7C38E700E42A35 /* ViewController.swift in Sources */,
+				4E574E581C8804E500CC4E2C /* SearchTableViewCell.swift in Sources */,
+				4E574E521C857BBC00CC4E2C /* UserAction.swift in Sources */,
 				4ECD3B881C7C38E700E42A35 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +543,7 @@
 		};
 		4ECD3BAD1C7C38E700E42A35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3FC698E3908FD6A95213FA /* Pods-LetsYeat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LetsYeat/Info.plist;
@@ -408,6 +555,7 @@
 		};
 		4ECD3BAE1C7C38E700E42A35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FB6F6AAC63F742A7061F661 /* Pods-LetsYeat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LetsYeat/Info.plist;
@@ -484,6 +632,7 @@
 				4ECD3BAE1C7C38E700E42A35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ECD3BAF1C7C38E700E42A35 /* Build configuration list for PBXNativeTarget "LetsYeatTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +641,7 @@
 				4ECD3BB11C7C38E700E42A35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ECD3BB21C7C38E700E42A35 /* Build configuration list for PBXNativeTarget "LetsYeatUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +650,7 @@
 				4ECD3BB41C7C38E700E42A35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

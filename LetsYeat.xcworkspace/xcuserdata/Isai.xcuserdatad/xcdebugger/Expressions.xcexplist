@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ReviewViewController.viewDidLoad() -&gt; ():ReviewViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Event">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
